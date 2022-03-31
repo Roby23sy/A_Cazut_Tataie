@@ -16,9 +16,11 @@ Ansamblul creat este format din:
 Acesta este compus dintr-un buzzer si un tranzistor pnp.
 Tranzitorul ne ofera posibilitatea de a controla buzzerul.
 
-<h1> Accelerometru Mpu-6050  </h1>
+<h1> Modulul cu Accelerometru Mpu-6050  </h1>
 
-
+Componenta de accelerometru din modulul folosit se baseaza pe principiul piezoelectric ar unui material. 
+Astfel in miscarea modului, materialul estee comprimat sau dilatat si astfel produce un curent electric proportional cu forta aplicata.
+Afland acceleratia modulului putem determina forta aplicata aspura lui si astfel suntem capabil sa detectam caderea unei persoane
 
 <h1> Modul cu led R-G-B  </h1>
 
