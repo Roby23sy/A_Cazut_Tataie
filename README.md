@@ -1,5 +1,5 @@
 # A_Cazut_Tataie
-Proiect SMP Siniuc_Robert 331AB
+Proiect SMP Siniuc Robert-Valentin 331AB
 
 Proiectul meu are ca rol atentionarea persoanelor din jur in cazul in care o persoana cade.
 
