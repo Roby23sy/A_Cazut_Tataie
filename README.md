@@ -29,12 +29,12 @@ Pe fiecare pin (fiecare culoare are cate un pin) este conectat la un semnal PWM,
 
 
 <h1>Programul urmareste urmatorii pasi</h1>
-<ol>
+<ul>
 <li>1.Verifica setarile si initializeaza accelerometrul</li>
 <li>2.Incepe citirea fortelor detectate de accelerometru</li>
 <li>3a. Aprinde led-ul RGB cu culoarea verde daca fortele detectate sunt sub 5 Newtoni </li>
 <li>3b. Aprinde led-ul RGB cu culoarea galben daca fortele detectate sunt intre 5 si 15 Newtoni</li>
 <li>3c. Aprinde led-ul RGB cu culoarea mov daca fortele detectate sunt intre 15 si 20 Newtoni</li>
 <li>3d. In cazul in care forta detectata trece de 20 de Newtoni se apeleaza functia de ALARMA, aceasta porneste modulul de buzzer si aprinde succesiv ledul cu culorile rosu si albastru (asteptam un timp inainte sa reincepem sa verificam accelerometrul lasand astfel timp persoanei sa se ridice)</li>
-</ol>
+</ul>
 
