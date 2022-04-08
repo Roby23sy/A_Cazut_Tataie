@@ -38,3 +38,17 @@ Pe fiecare pin (fiecare culoare are cate un pin) este conectat la un semnal PWM,
 <li>3d. In cazul in care forta detectata trece de 20 de Newtoni se apeleaza functia de ALARMA, aceasta porneste modulul de buzzer si aprinde succesiv ledul cu culorile rosu si albastru (asteptam un timp inainte sa reincepem sa verificam accelerometrul lasand astfel timp persoanei sa se ridice)</li>
 </ul>
 
+<h3>1.Verificare si initializare accelerometru</h3>
+<p> Se verifica outputul accelerometrului si acesta se considera valoare de pornire a senzorului.</p>
+<p> In cazul in care este specificate un offset acesta este aplicat valorilor de pornire. </p>
+
+<h3>2.Citirea fortelor</h3>
+<p> Se retine in variabila 'normAccel' valoarea normalizata a acceleratiei detectate de senzor </p>
+<p> Prin insumarea patratelor acceleratiilor de pe fiecare axa se calculeaza forta generala aplicata asupra senzorului </p>
+
+<h3>3.Alerta si verificare forta</h3>
+<p> In functie de forta aplicata se seteaza culoarea ledului prin outputul a trei semnale analog pentru fiecare culoare de baza a ledului </p>
+
+<h3>3*.Functia 'alarm'</h3>
+<p> Functia porneste modulul buzzer pentru cateva secunde si alterneaza intre culoarea rosie si albastra </p>
+<p> Dupa alertare se asteapta cateva secunde pentru ridicarea persoanei ce utilizeaza sistemul de alerta. </p>
